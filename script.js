@@ -5,7 +5,6 @@ button.addEventListener("click", function() {
    typedText = typedText.toLowerCase(); 
    typedText = typedText.replace(/[^a-z'\s]+/g, ""); 
 
-
    //-----------------------------------------------------------------------------------
 
    
@@ -63,6 +62,4 @@ button.addEventListener("click", function() {
       words.appendChild(span); 
    }
    
-
-
 });
